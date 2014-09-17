@@ -28,7 +28,7 @@ and open the template in the editor.
         </div>
         <h1 class="address">易县</h1>
         <div class="m-photo">
-            <img src="Public/img/易水湖3.jpg" height="334" width="500">           
+            <img src="Public/img/易水湖3.jpg" height="360" width="680">           
         </div>
         
         
@@ -72,7 +72,7 @@ and open the template in the editor.
         </div>
        
         <div class="float">
-            <p>开发参照<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/12711.html">马蜂窝云南页面</a>
+            <p>开发参照<a target="_blank" href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/12711.html">马蜂窝云南页面</a>
         </p>
         </div>
         

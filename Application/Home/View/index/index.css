@@ -7,8 +7,8 @@ body {
     background-color: #FFA800;
 }
 .nav-content {
-    margin: 0px auto;
-    width: 980px;
+    margin: 0px 10% 0px 4.2% ;
+    //width: 980px;
 }
 .nav-content .main-nav {
     margin: 0px 0px 0px 30px;
@@ -29,16 +29,15 @@ body {
 }
 h1 {
     //display: inline;
-    margin-left: 40px;
+    margin-left: 10%;
 }
 .m-photo {
-    float: left;
-    width: 680px;
-    margin-left: 40px;
+    //float: left;
+    width: 980px;
+    margin-left: 10%;
     margin-bottom: 30px;
     height: 370px;
-    position: relative;
-    overflow: hidden;
+    clear: both;
 }
 
 .m-photo img {
@@ -47,7 +46,9 @@ h1 {
 
 .split{
     clear: both;
-    margin-left: 40px;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: normal;
 }
 
 .test ul li {
@@ -56,15 +57,26 @@ h1 {
     height: 178px;
 }
 .m-nearby {
-    width: 1100px;
-    margin-right: 0px;
+    width: 980px;
+    margin-right: 10px;
+    margin-left: 4.6%
 }
+.m-nearby ul{
+    margin: 0px 0px 0px 0px;
+}
+
 .m-nearby ul li {
     float: left;
-    width: 240px;
+    display: inline;
+    margin: 0px 0px 20px 28px;
+    width: 224px;
     height: 178px;
-    
+    line-height: 20px;
 }
+.m-nearby ul li img{
+    vertical-align: middle;
+}
+
 .float {
     clear: both;  
 }
