@@ -31,17 +31,30 @@ h1 {
     //display: inline;
     margin-left: 10%;
 }
+
+.first-screen clearfix {
+    content: " ";
+    clear: both;
+    //display: table;
+    overflow: hidden;
+}
 .m-photo {
-    //float: left;
-    width: 980px;
+    float: left;
+    //width: 980px;
+    position: relative;
     margin-left: 10%;
+    //margin-right: 20px;
     margin-bottom: 30px;
     height: 370px;
-    clear: both;
 }
 
 .m-photo img {
     vertical-align: middle;
+}
+.p-aside {
+    float: right;
+    width: 260px;
+    margin-right: 12%;
 }
 
 .split{
@@ -57,7 +70,7 @@ h1 {
     height: 178px;
 }
 .m-nearby {
-    width: 980px;
+    width: 1180px;
     margin-right: 10px;
     margin-left: 4.6%
 }
