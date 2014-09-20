@@ -1,7 +1,18 @@
 body {
     font-size: 12px;
-    font-family: verdana; 
+    font: 12px Arial,"Microsoft Yahei","微软雅黑",Tahoma,Helvetica,STHeiti,"Hiragino Sans GB";
+    color: #666;
 }
+body ,p, div {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, cite, dfn, em, img, ins, s, strong, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+}
+
 .navigation {
     height: 46px;
     background-color: #FFA800;
@@ -27,9 +38,9 @@ body {
     display: inline;
     margin-right: 30px;
 }
-h1 {
+.address {
     //display: inline;
-    margin-left: 10%;
+    margin: 10px 0px 10px 10%;
 }
 
 .first-screen clearfix {
@@ -56,6 +67,36 @@ h1 {
     width: 260px;
     margin-right: 12%;
 }
+.p-aside .hd{
+   height: 30px;
+   margin: 0px 0px 10px 0px;
+   font-size: 12px;
+   color: #666;
+   line-height: 40px;
+}
+.p-aside .bd{
+    margin:0;
+    overflow:hidden;  
+}
+
+.m-map .hd h2 {
+    //margin: 0px 0px 0px0px;
+    float: left;
+}
+
+.m-map .hd a {
+    margin: 0px 0px 0px0px;
+    float: right;
+    font-size: 12px;
+    color: #0A89E4;
+}
+
+#container {
+    clear: both;
+    width:260px;
+    height:160px;
+    border:1px solid gray
+}
 
 .split{
     clear: both;
@@ -70,18 +111,19 @@ h1 {
     height: 178px;
 }
 .m-nearby {
-    width: 1180px;
-    margin-right: 10px;
-    margin-left: 4.6%
+    width: 980px;
+    //margin-right: 10%;
+    margin-left: 10%;
 }
 .m-nearby ul{
-    margin: 0px 0px 0px 0px;
+    //margin: 0px 0px 0px 0px;
+    overflow: hidden;
 }
 
 .m-nearby ul li {
     float: left;
     display: inline;
-    margin: 0px 0px 20px 28px;
+    margin: 0px 20px 20px 0px;
     width: 224px;
     height: 178px;
     line-height: 20px;

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>易县地图</title>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=2b866a6daac9014292432d81fe9b47e3"></script>  
+        <script src="http://d1.lashouimg.com/static/js/release/jquery-1.4.2.min.js" type="text/javascript"></script>   
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/map/index.css">
+    </head> 
+    <body>  
+        <div class="p-side">
+            <div class="hd">
+                <h1>易县地图</h1>
+            </div>
+            <div class="bd">
+                <p>
+                    易县是河北省保定市下辖的一个县，因易水而得名。易县，古称易州，她西倚太行山脉，东临冀中平原，
+                    位于河北省中西部，保定市西北部。易县距北京120公里，天津160 公里，保定60公里，处于京津保金
+                    三角地带，区位十分优越。县境总面积为2534平方公里，总人口56万，是著名的革命老区。易县是河北
+                    省环京津都市圈35个县份之一，是联合国教科文组织命名的全国首批14个千年古县之一，是河北省文化
+                    名城、河北省唯一一个上榜的全国50个最美小城之一，是国家级森林公园（易州森林公园），是国家林业
+                    局颁布的中国绿色名县。境内山川秀丽，特产富饶，自然源极其丰富，待开发前景广阔，潜力巨大。 现已
+                    探明的金属和非金属矿藏30多种，尤其“七石一沙”储量最为可观（即金矿石、花岗石、石灰石、白云石、大
+                    理石、蛭石、麦饭石和建筑沙），适宜于矿业和建材业的发展。全县有大、 中、小型水库27座，拒马河、
+                    北易水、中易水、南易水、漕河5条河流横贯全县，但大多干涸。18.67万公顷广阔的山场，为林牧业的发
+                    展提供了良好的条件。悠久的历史，秀丽的山川，清西陵等众多的名胜古迹，构成了特有的旅游资源优势。
+                </p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="hd">
+            </div>
+            <div class="bd">
+                <div id="container"></div>  
+            </div>
+        </div>
+        
+    </body>  
+    </html>  
+    <script type="text/javascript">  
+        var map = new BMap.Map("container");  
+        map.centerAndZoom(new BMap.Point(115.502801,39.35258), 14);  
+        map.enableScrollWheelZoom();  
+
+    </script>

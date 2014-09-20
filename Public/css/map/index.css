@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-9-20, 15:07:53
+    Author     : pufan
+*/
+body {
+    font-size: 12px;
+    font: 12px Arial,"Microsoft Yahei","微软雅黑",Tahoma,Helvetica,STHeiti,"Hiragino Sans GB";
+    color: #666;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6,  blockquote, a, abbr, cite, dfn, em, img, ins, s, strong, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+}
+.p-side {
+    float: left;
+    width: 275px;
+    background-color: #FFF;
+    height: 100%;
+    //margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.p-side .hd{
+    height: 50px;
+    font-size: 16px;
+    padding: 10px 0px 0px 20px; 
+    border-bottom: 1px solid #CAC8C1;
+}
+.main {
+    margin-left: 275px;
+    //clear: both;
+}
+.main .hd{
+    height: 60px;
+}
+.main .db{
+    position: relative; 
+    background-color: rgb(229, 227, 223); 
+    overflow: hidden;
+}
+#container {
+    border:1px solid gray;
+    width:993px;
+    height:500px;
+}
+
