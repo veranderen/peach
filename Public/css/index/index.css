@@ -3,6 +3,10 @@ body {
     font: 12px Arial,"Microsoft Yahei","微软雅黑",Tahoma,Helvetica,STHeiti,"Hiragino Sans GB";
     color: #666;
 }
+.all {
+    margin-left: auto;
+    margin-right: auto;
+}
 body ,p, div {
     word-break: break-all;
     word-wrap: break-word;
@@ -19,7 +23,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, cite, dfn
 }
 .nav-content {
     margin: 0px 10% 0px 10% ;
-    //width: 980px;
 }
 .nav-content .main-nav {
     margin: 0px 0px 0px 0px;
@@ -43,18 +46,17 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, cite, dfn
     margin: 10px 0px 10px 10%;
 }
 
-.first-screen clearfix {
-    content: " ";
-    clear: both;
-    //display: table;
+.first-screen  {
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 }
 .m-photo {
     float: left;
-    //width: 980px;
+    width: 680px;
     position: relative;
     margin-left: 10%;
-    //margin-right: 20px;
+    margin-right: 0px;
     margin-bottom: 30px;
     height: 370px;
 }
@@ -63,9 +65,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, cite, dfn
     vertical-align: middle;
 }
 .p-aside {
-    float: right;
-    width: 260px;
+    width: 270px;
     margin-right: 12%;
+    margin-left: 850px;
 }
 .p-aside .hd{
    height: 30px;
@@ -75,8 +77,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, cite, dfn
    line-height: 40px;
 }
 .p-aside .bd{
-    margin:0;
-    overflow:hidden;  
+    margin-left: auto;
+    margin-right: 0px;
+    overflow:hidden; 
+    border: 1px;
 }
 
 .m-map .hd h2 {
