@@ -1,0 +1,46 @@
+<%@ page contentType="text/html;charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="ctx" value="${pageContext.request.contextPath}" />
+
+<html>
+<head>
+<title>发送Json格式数据</title>
+
+<script type="text/javascript" src="./lib/js/jquery-1.8.3.js" ></script>
+<script type="text/javascript" src="./lib/js/jquery.json-2.4.min.js"></script>
+
+<script type="text/javascript">
+function sendJson() {
+	var requestStr = {
+			reqStr:  'test parameter'
+	};
+	var request = { 
+			requestId: 'asdfasdfa',
+			sessionId: 'asdfasdfasdf',
+			userName: 'Jeremy',
+			password:'123',
+			request: requestStr
+	};
+	//调用了jquery.json 库
+	var encoded = $.toJSON( request );
+	var jsonStr = encoded;
+	var actionStr = $("#actionPath").val();
+	$.ajax({
+		url : "${ctx}/" + actionStr,
+		type : 'POST',
+		data : jsonStr,
+		dataType : 'json',
+		//contentType : 'application/json',
+		success : function(data, status, xhr) {
+//         Do Anything After get Return data
+//			$.each(data.payload, function(index){
+//				$("#result").append("</br>" + data.payload[index].beanStr);
+//			});
+		},
+		Error : function(xhr, error, exception) {
+			// handle the error.  
+			alert(exception.toString());
+		}
+	});
+}
+</script>
